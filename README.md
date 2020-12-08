@@ -1,0 +1,2 @@
+# static_responsive_website
+staticresponsivewebsite.netlify.app
