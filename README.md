@@ -1,2 +1,3 @@
 # static_responsive_website
-staticresponsivewebsite.netlify.app
+
+https://staticresponsivewebsite.netlify.app/
