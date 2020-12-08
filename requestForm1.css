@@ -1,0 +1,609 @@
+* {
+    margin:0;
+    padding:0;
+  }
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+    .rform{
+    font-size: 15pt;
+    text-align: center;
+    font: normal normal bold 27px/35px;
+    letter-spacing: 1.35px;
+    color: #434B5E;
+    opacity: 1;
+    }
+    .sideimg{
+      background: #F5F5F5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    }
+    .sidemask{
+      height: 100px;
+        width: 50%;
+        margin-left: 25%;
+        padding: 5%;
+    }
+    .dot{
+      height: 10px;
+      width: 10px;
+      background-color: #E15356;
+      border-radius: 50%;
+      display: flex;
+      position: absolute;
+      margin: 5px;
+    }
+    .circle{
+      height: 25px;
+      width: 25px;
+      border: 2px solid #E15356;
+    opacity: 1;
+    border-radius: 50%;
+    position: relative;
+      display: inline-block;
+    }
+    .dot1{
+      height: 10px;
+      width: 10px;
+      background-color:#BFC4CF;
+      border-radius: 50%;
+      display: flex;
+      position: absolute;
+      margin: 5px;
+    }
+    .circle1{
+      height: 25px;
+      width: 25px;
+      border: 2px solid #BFC4CF;
+    opacity: 1;
+    border-radius: 50%;
+    position: relative;
+      display: inline-block;
+    }
+    .circledetail{
+        text-align: center;
+      font: normal normal bold 18px/23px Red Hat Display;
+      letter-spacing: 0px;
+      color: #5B657E;
+      opacity: 1;
+      
+    }
+    .circledetail1{
+        text-align: center;
+      font: normal normal medium 18px/23px Red Hat Display;
+      letter-spacing: 0px;
+      color: #BFC4CF;
+      opacity: 1;
+    }
+    .centrecircle{
+        margin-left: 0%;
+        width: 105%;
+        text-align: center;
+    }
+    .dashline1{
+        border: 1px dashed #BFC4CF;
+      opacity: 1;
+      margin-top: 1%;
+      width: 25%;
+      margin-left: -6.5%;
+      margin-right: -2%;
+    }
+    .dashline2{
+        border: 1px dashed #BFC4CF;
+      opacity: 1;
+      margin-top: 1%;
+      width: 25%;
+      margin-left: -2.5%;
+      margin-right: -2%;
+    }
+    .dashline3{
+        border: 1px dashed #BFC4CF;
+      opacity: 1;
+      margin-top: 1%;
+      width: 25%;
+      margin-left: -5.5%;
+      margin-right: -3%;
+      }
+    .pinfo{
+        float: left;
+        font: normal normal bold 14px/20px Red Hat Display;
+        letter-spacing: 0.7px;
+        color: #5B657E;
+        text-transform: uppercase;
+        opacity: 1
+    }
+    .unit{
+        float: right;
+        font: normal normal 600 12px/20px Muli;
+        letter-spacing: 0px;
+        color: #7E879D;
+        opacity: 1;
+    }
+    .tdata{
+      text-align: right;
+    font: normal normal 600 15px/20px Muli;
+    letter-spacing: 0px;
+    color: #7E879D;
+    opacity: 1;
+    }
+    .tdata1{
+      text-align: left;
+    font: normal normal 600 15px/20px Muli;
+    letter-spacing: 0px;
+    color: #7E879D;
+    opacity: 1;
+    }
+    .tdata2{
+      
+    font: normal normal 600 15px/20px Muli;
+    letter-spacing: 0px;
+    color: #7E879D;
+    opacity: 1;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 100%;
+      
+    }
+    
+    .th1, td {
+      
+      padding: 5px;
+      border-bottom: 1px solid #BFC4CF;
+    }
+    .quantSelect
+    {
+      text-align: left;
+    font: normal normal bold 14px/18px Red Hat Display;
+    letter-spacing: 0.7px;
+    color: #5B657E;
+    text-transform: uppercase;
+    opacity: 1;
+    }
+    .textbtn{
+      text-align: center;
+    font: normal normal bold 18px/23px Red Hat Display;
+    letter-spacing: 0.9px;
+    color: #7E879D;
+    text-transform: uppercase;
+    opacity: 1;
+    }
+    .p1{
+      text-align: left;
+    font: normal normal bold 14px/18px Red Hat Display;
+    letter-spacing: 0.7px;
+    color: #5B657E;
+    text-transform: uppercase;
+    opacity: 1;
+    }
+    .p2{
+      text-align: left;
+      font: normal normal 600 16px/20px Muli;
+      letter-spacing: 0px;
+      color: #7E879D;
+      opacity: 1;
+    }
+    .p3{
+      text-align: left;
+    font: normal normal medium 14px/20px Red Hat Display;
+    letter-spacing: 0px;
+    color: #969FB4;
+    opacity: 1;
+    }
+    .pcolor{
+      text-align: left;
+    font: normal normal bold 14px/18px Red Hat Display;
+    letter-spacing: 0.7px;
+    color: #5B657E;
+    text-transform: uppercase;
+    opacity: 1;
+    
+    }
+    .pselect{
+      text-align: left;
+    font: normal normal medium 14px/18px Red Hat Display;
+    letter-spacing: 0.7px;
+    color: #7E879D;
+    opacity: 1;
+    }
+    .sel1{
+      margin-left: -10px;
+      margin-top: 8px;
+    }
+    .black1{
+      width: 26px;
+    height: 26px;
+    background: #3D3C42 0% 0% no-repeat padding-box;
+    border: 1px solid #3D3C42;
+    box-shadow: 0px 2px 14px #434B5E59;
+    border-radius: 5px;
+    opacity: 1;
+    margin: 2% ;
+    margin-right: 3%;
+    }
+    .blue1{
+      width: 26px;
+    height: 26px;
+      background: #9C46FF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    margin: 2% 3%;
+    }
+    .yellow1{
+      width: 26px;
+    height: 26px;
+      background: #FFA346 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    margin: 2% 3%;
+    }
+    .skyblue1{
+      width: 26px;
+    height: 26px;
+    background: #4677FF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    margin: 2% 3%;
+    }
+    .red2{
+      width: 26px;
+    height: 26px;
+    background: #A5276E 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    margin: 2% 3%;
+    }
+    .pink1{
+      width: 26px;
+    height: 26px;
+    background: #E15356 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    margin: 2% 3%;
+    }
+    .pcolor{
+      
+        font: normal normal bold 14px/18px Red Hat Display;
+      letter-spacing: 0.7px;
+      color: #5B657E;
+      opacity: 1;
+      }
+    .instruct{
+      text-align: left;
+    font: normal normal bold 14px/18px Red Hat Display;
+    letter-spacing: 0.7px;
+    color: #5B657E;
+    text-transform: uppercase;
+    opacity: 1;
+    
+    }
+    .textinput{
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BFC4CF;
+    border-radius: 5px;
+    opacity: 1;
+    width: 100%;
+    height: 100px;
+    }
+    .inputext{
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #BFC4CF;
+      border-radius: 5px;
+      opacity: 1;
+      width: 100%;
+      height: 50%;
+    }
+    .textcomment{
+      text-align: left;
+    font: normal normal 600 14px/18px Muli;
+    letter-spacing: 0.35px;
+    color: #7E879D;
+    opacity: 1;
+    padding: 2%;
+    }
+    .pcomment{
+      text-align: left;
+    font: normal normal 600 13px/16px Muli;
+    letter-spacing: 0.33px;
+    color: #969FB4;
+    opacity: 1;
+    }
+    .maskname{
+      text-align: left;
+    font: normal normal bold 20px/20px Red Hat Display;
+    letter-spacing: 0px;
+    color: #434B5E;
+    opacity: 1;
+    font-size: 1em;
+    }
+    .selectleft{
+      float: left;
+    font: normal normal 600 14px/18px Muli;
+    letter-spacing: 0.7px;
+    color: #7E879D;
+    text-transform: capitalize;
+    opacity: 1;
+    }
+    .selectright{
+      float: right;
+    font: normal normal 600 14px/18px Muli;
+    letter-spacing: 0.7px;
+    color: #7E879D;
+    text-transform: capitalize;
+    opacity: 1;
+    }
+    .selectright1{
+    font-size: 9px;
+    float: right;
+    font: normal normal medium 10px/14px Red Hat Display;
+    letter-spacing: 0.35px;
+    color: #5B657E;
+    opacity: 1;
+    }
+    .unselectleft{
+      float: left;
+      font: normal normal 600 14px/18px Muli;
+      letter-spacing: 0.7px;
+      color: #BFC4CF;
+      text-transform: capitalize;
+      opacity: 1;
+    }
+    .unselectright{
+      float: right;
+      font: normal normal 600 14px/18px Muli;
+      letter-spacing: 0.7px;
+      color: #BFC4CF;
+      text-transform: capitalize;
+      opacity: 1;
+    }
+    .sidetopadding{
+      padding-top: 17px;
+    }
+    .totalbtnstyle{
+    width: 100%;
+    height: 5.7%;
+    background: #E15356 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    margin-bottom: 1%;
+    margin-top: 6%;
+    padding: 1%;
+    }
+    .totalbtnstyle1{
+    width: 100%;
+    height: 5%;
+    background: #E15356 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    margin-bottom: -10px;
+    margin-top: -5px;
+    }
+    .totalprice{
+    float: right;
+    margin-right: 5%;
+    padding-top: 8px;
+    font: normal normal bold 20px/20px Muli;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    }
+    .totaltext{
+    float: left;
+    margin-left: 5%;
+    padding-top: 8px;
+    font: normal normal bold 15px/19px Muli;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    }
+    .nextbtnstyle{
+    width: 100%;
+    height: 5%;
+    border: 1px solid #E15356;
+    border-radius: 10px;
+    opacity: 1;
+    margin-bottom: -10px;
+    margin-top: -5px;
+    }
+    .nexttext{
+      text-align: center;
+      margin: 5px 15px;
+      font: normal normal bold 15px/19px Muli;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+    }
+    .days5{
+        display: none;
+    }
+    .helpingNumber{
+    text-align: left;
+    font: normal normal medium 15px/16px Red Hat Display;
+    letter-spacing: 0.07px;
+    color: #7E879D;
+    }
+@media screen and (max-width: 1500px) {
+    .dashline1{
+        width: 25%;
+        margin-left: -6.5%;
+    }
+    .dashline2{
+        width: 25%;
+        margin-left: -3%;
+    }
+    .dashline3{
+        width: 25%;
+        margin-left: -3%;
+    }
+    .second-circle{
+        margin-left: -12%;
+    }
+    .third-circle{
+        margin-right: 13%;
+    }
+    .fourth-circle{
+    margin-right: -35%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .dashline1{
+        width: 24%;
+        margin-left: -7.5%;
+    }
+    .dashline2{
+        width: 25%;
+        margin-left: -3.5%;
+    }
+    .dashline3{
+        width: 21%;
+        margin-left: -3.5%;
+    }
+    .second-circle{
+        margin-left: -15%;
+    }
+    .third-circle{
+        margin-right: 13%;
+    }
+    .fourth-circle{
+    margin-right: -15%;
+    }
+}
+@media screen and (max-width : 990px){
+    .dashline1{
+        width: 20%;
+        margin-left: -10.5%;
+    }
+    .dashline2{
+        width: 20%;
+        margin-left: -5%;
+    }
+    .dashline3{
+        width: 20%;
+        margin-left: -4.5%;
+    }
+    .second-circle{
+        margin-left: -30%;
+    }
+    .third-circle{
+        margin-right: 13%;
+    }
+    .fourth-circle{
+    margin-right: -15%;
+    }
+}
+@media screen and (max-width: 520px){
+    .dashline1{
+        width: 17%;
+        margin-left: -10.5%;
+    }
+    .dashline2{
+        width: 17%;
+        margin-left: -5%;
+    }
+    .dashline3{
+        width: 17%;
+        margin-left: -4.5%;
+    }
+    .second-circle{
+        margin-left: -30%;
+    }
+    .third-circle{
+        margin-right: 13%;
+    }
+    .fourth-circle{
+    margin-right: -15%;
+    }
+}
+@media screen and (max-width: 460px){
+    .dashline1{
+        width: 18%;
+    margin-left: -12.5%;
+    margin-top: 2%;
+    }
+    .dashline2{
+        width: 18%;
+        margin-left: -1%;
+    margin-top: 2%;
+    }
+    .dashline3{
+        width: 18%;
+        margin-left: 1.5%;
+    margin-top: 2%;
+    }
+    .second-circle{
+        margin-left: -25%;
+    }
+    .third-circle{
+        margin-left: 30%;
+    }
+    .fourth-circle{
+    margin-left: 45%;
+    }
+}
+@media all and (max-width: 775px){ 
+    .quantity{
+      float: left;
+    }
+    .sidediv{
+      padding: 2%;
+    }
+    .btnwidth{
+      width: 75%;
+    }
+    .days5{
+      float: right;
+      display: block;
+    }
+    span#optional {
+      display: none;
+    }
+}
+@media (max-width: 460px) {
+    .circledetail1{
+        display: none;
+    }
+    .unit{
+      float: left;
+    }
+    .see{
+      display: none;
+    }
+    .tdata{
+      text-align: center;
+    }
+    .tdata1{
+      text-align: center;
+    }  
+}
+@media (min-width: 460px){
+    .notsee{
+      display: none;
+    }
+}
+@media screen and ( max-width: 768px){
+    #ReuestForm1{
+      padding: 0px 0.8rem;
+    }
+    div#optionalstuff {
+      display: none;
+    }
+  }
+  .font1{
+    font-family: 'Mulish', sans-serif;
+  }
+  .font2{
+    font-family: 'Red Hat Display', sans-serif;
+  }
+  .product-heading-txt {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bolder;
+  }
